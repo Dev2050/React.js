@@ -1,0 +1,257 @@
+@import "_config.scss";
+
+/*--------------------------------------------------------------------------------
+					World font sizes
+---------------------------------------------------------------------------------*/
+ @import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);
+
+ #menu {
+		margin-right: 0px;
+		margin-left: 0px;
+		text-align: right;
+		margin-top: 30px;
+		margin-bottom: 0px;
+	}
+.logo{
+		top: 10px; 
+		left: 550px;
+		color: black;
+		font-family: 'Open Sans', 'sans-serif';
+		font-weight: 500;
+		font-size: 22px;
+		position: relative;
+		display: inline;
+		background-color: none;
+		text-align: center;
+		@include translateY(-10%);
+	}
+.text_headers{
+	padding-top: 1px; 
+	padding-bottom:10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: black;
+  font-weight: 400;
+  font-style: bold;
+	font-size: 20px;
+	position: relative;
+	display: inline;
+	background-color: none;
+	text-align: center;
+	@include translateY(-10%);
+}
+.container{
+	top:0.7;
+	margin-top: 120px;
+}
+ nav,
+ nav ul,
+ nav ul li{
+	 margin: 0;
+	 right: 0;
+	 padding: 0;
+ }
+ nav {
+		background-color: #f2f2f2;
+		z-index: 500;
+		height: 120px;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		position: fixed;
+		top: 0.1%;
+		opacity: 1;		
+		@include translateY(-3%);
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+			&.last{
+				margin: 0;
+			}
+			a{
+				font-size: 19px;
+				font-weight: 400;
+				color: 	black;
+				line-height: normal;
+			}
+		}
+		-webkit-box-shadow: 0px 0px 8px 0px #000000;
+		-moz-box-shadow: 0px 0px 8px 0px #000000;
+		box-shadow: 0px 0px 8px 0px #000000;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+.card-header{
+	padding: 0px;
+	background: #F1F1F1;
+}
+.card-header-tabs{
+	background: #F1F1F1;
+}
+.container_whole_page{
+	width:90%;
+	height:100%;
+	margin:0px 5px 0px -5px;
+	padding: 0px 0px 0px 0px;
+  border:1px solid  white;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.videoSlider_wrapper{
+	background: white;
+	overflow: hidden;
+}
+#songItems_ul	
+{
+	width: 100%;
+	margin:0 auto;
+	padding:0;
+	background: transparent;
+}
+#songItems_ul li
+{
+	max-width: 100%;
+	float:left;
+	list-style-type: none;
+	text-align: center;
+	color: 	$lightBlue;
+}
+#containitems{
+	width: 100%;
+	margin:0 auto;
+	padding: 10px 50px 0px 50px;
+	border:1px solid #ccc;
+	background: transparent;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.the_characterstics{
+	position: relative;
+	top:40px;left:0px;
+	@include translateY(-7%);
+}
+.the_char_list{
+	position: relative;
+	top:40px;left:0px;
+	@include translateY(-7%);
+}
+.card-header{
+	background-color: white;
+}
+#_loc{
+   left: 460px;
+}
+.row{
+	margin: 0px 0px 10px 55px;
+	background-color: none;
+	height: 100%;
+	width: 90%;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.site-footer .social {
+	float: none;
+}
+.site-footer{
+	background: #F1F1F1;
+}
+.section-spacing{
+	padding: 1em 0;
+}
+.site-footer .section-spacing{
+	padding: 4.5em 0;
+}
+.site-footer small{
+	color: #888;
+}
+.social{
+	float: none;
+}
+.social li{
+	display: inline-block;
+	padding-right: .8em;
+}
+.social li:last-child{
+	padding-right: 0;
+}
+.social li a{
+	display: block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: white;
+	border-radius: 50%;
+	background: #ff5335;
+	&:hover{
+		color: #fff;
+		background: #d92709;
+		@include transition(.4s ease-in-out);
+	}
+	position: relative;
+	transition: all .8s ease;
+}
+.thumbnail{
+	border: 1px solid white;
+	padding:0;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.grid-container{
+	background: white;
+}
+.btn-default{
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: #f2f2f2;
+	border: 0;
+}
+.btn-default:hover{
+	outline: none;
+	-webkit-apprearance: none;
+	-moz-apprearance: none;
+	background: #f2f2f2;
+	border: 0;
+}
+.glyphicon-menu-left{
+	outline: none;
+	color: #888;
+	-webkit-apprearance: none;
+	-moz-appearance: none;
+	background: normal;
+	border: 0;
+}
+.glyphicon-menu-left:hover{
+	outline: none;
+	color: #888;
+	-webkit-apprearance: none;
+	-moz-appearance: none;
+	background: normal;
+	border: 0;
+}
+.glyphicon-menu-right{
+	outline: none;
+	color: #888;
+	-webkit-apprearance: none;
+	-moz-appearance: none;
+	background: normal;
+	border: 0;
+}
+.glyphicon-menu-right:hover{
+	outline: none;
+	color: #888;
+	-webkit-apprearance: none;
+	-moz-appearance: none;
+	border: 0;
+}
+.carousel-control {
+	padding-top:10%;
+	width:5%;
+}
