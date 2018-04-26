@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Feedback extends Component{
     constructor(props){
         super(props);
-        this.state={value: 'Please give feedback!'};
+        this.state={value: ''};
         this.handleChange=this.handleChange.bind(this);
         this.handleSubmit=this.handleSubmit.bind(this);
     }
